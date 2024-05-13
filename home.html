@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home page</title>
+        <link rel="stylesheet" href="styles/common.css">
+        <link rel="stylesheet" href="styles/index.css">
+    </head>
+
+    <body>
+        <header></header>
+            <div class="navbar">  
+                <a href="home.html">Home</a>  
+                <a href="education.html">Education</a>  
+                <a href="skill.html">Skills</a>  
+                <a href="photo_gallary.html">Photo Galary</a>  
+                <a href="contact.html">Contact</a> 
+            </div> 
+        </header>
+        <main>
+            <img class="profile" src="images/profile.jpg">
+            <span class="name">Masum Billah</span><br>
+            @masum.billah<br>
+
+            <div class="grid">
+                <div class="gmargin">
+                    <img class="picture" src="images/gmail.png">
+                </div>
+                <div>masumbillah3772@gmail.com</div>
+
+                <div class="gmargin">
+                    <img class="picture" src="images/gender.png">
+                </div>
+                <div>Gender: Male</div>
+
+                <div class="gmargin">
+                    <img class="picture" src="images/dob.png">
+                </div>
+                <div>26 May 2000</div>
+
+                <div class="gmargin">
+                    <img class="picture" src="images/address.png">
+                </div>
+                <div>Address: Nawabganj,Dhaka.</div>
+            </div>
+
+            <div class="layout">
+                <div>
+                    <input type="submit" value="Download cv" class="button">
+                </div>
+                <div>
+                    <input type="submit" value="Change Profile Picture" class="button">
+                </div>
+                <div>
+                    <input type="submit" value="Change Username" class="button">
+                </div>
+            </div>
+
+            <table>
+                <caption>Course Completed</caption>
+                <tr>
+                    <th rowspan="2">No.</th>
+                    <th rowspan="2">Course Code</th>
+                    <th rowspan="2">Course Title</th>
+                    <th colspan="2">GPA</th>
+                    <th colspan="2">Action</th>
+                </tr>
+
+                <tr>
+                    <th>Scale</th>
+                    <th>CGPA</th>
+                    <th>Edit</th>
+                    <th>Delate</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>CSE2Y1S</td>
+                    <td>Software Engineering</td>
+                    <td>4</td>
+                    <td>3.25</td>
+
+                    <th>
+                        <div>
+                            <input type="submit" value="Edit" class="tablebutton">
+                        </div>
+                    </th>
+
+                    <th>
+                        <div>
+                            <input type="submit" value="Delate" class="tablebutton">
+                        </div>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>CSE3Y2S</td>
+                    <td>Database Management System</td>
+                    <td>4</td>
+                    <td>3.5</td>
+
+                    <th>
+                        <div>
+                            <input type="submit" value="Edit" class="tablebutton">
+                        </div>
+                    </th>
+
+                    <th>
+                        <div>
+                            <input type="submit" value="Delate" class="tablebutton">
+                        </div>
+                    </th>
+                </tr>
+            </table>
+            
+            <div>
+                <input type="submit" value="Add course" class="button" id="addcourse">
+            </div>
+        </main>
+    </body>
+</html>

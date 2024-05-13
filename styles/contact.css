@@ -1,0 +1,50 @@
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px; /* Adjust font size as needed */
+    padding: 100px; /* Adjust padding as needed */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Increase margin for better spacing */
+}
+
+.contact-item .icon {
+    font-size: 30px; /* Adjust icon size as needed */
+    margin-right: 10px;
+}
+
+.contact-item span {
+    font-weight: bold;
+    margin-right: 10px; /* Increase margin for better spacing */
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styling for links */
+.contact-item a {
+    color: #030303; /* Change link color */
+    transition: color 0.3s ease; /* Add transition effect */
+}
+
+.contact-item a:hover {
+    color: #0056b3; /* Change link color on hover */
+}
+
+/* Additional styling for icons */
+.bx {
+    width: 30px; /* Adjust icon size */
+    height: 30px; /* Adjust icon size */
+}
+.bannar{
+    margin-left: 150px;
+}

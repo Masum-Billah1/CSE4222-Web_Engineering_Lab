@@ -1,0 +1,16 @@
+.input {
+    display: flax;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.forgetpass {
+    font-size: small;
+    color: blue;
+}
+
+body {
+    margin-left: 500px;
+}

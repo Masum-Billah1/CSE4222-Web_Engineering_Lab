@@ -1,0 +1,49 @@
+/* div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+} */
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgb(26, 139, 134) 65%, rgb(68, 113, 180) 100%);
+}
+
+.button {
+    background-color: rgb(91, 91, 237);
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bg {
+    background-color: rgba(241, 240, 234, 0.893);
+    padding: 20px;
+}
+.navbar {  
+    background-color: #333; /* Background color */  
+    overflow: hidden; /* Clear floats */  
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange items vertically */
+    align-items: center; /* Align items horizontally in the center */
+    justify-content: center; /* Center items vertically */
+}
+    
+  /* Style for navigation bar links */  
+  .navbar a {  
+    float: left; /* Float the links to the left */  
+    display: block; /* Display links as blocks */  
+    color: white; /* text color */  
+    text-align: center; /* Center-align the text */  
+    padding: 14px 16px; /* Padding around the links */  
+    text-decoration: none; /* Remove underline from links */  
+  }  
+    
+  /* Change color on hover */  
+  .navbar a:hover {  
+    background-color: #ddd; /* Background color on hover */  
+    color: black; /* Text color on hover */  
+  } 
